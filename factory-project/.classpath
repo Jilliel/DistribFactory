@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/jgrapht/lib/jgrapht-core-1.5.2.jar" sourcepath="libs/jgrapht/source/jgrapht-core"/>
+	<classpathentry kind="lib" path="libs/jgrapht/lib/jheaps-0.14.jar"/>
+	<classpathentry kind="lib" path="libs/graph.jar"/>
+	<classpathentry kind="lib" path="/Users/raphael/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.19.2/jackson-annotations-2.19.2.jar"/>
+	<classpathentry kind="lib" path="/Users/raphael/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.19.2/jackson-core-2.19.2.jar"/>
+	<classpathentry kind="lib" path="/Users/raphael/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.19.2/jackson-databind-2.19.2.jar"/>
+	<classpathentry kind="lib" path="/Users/raphael/Desktop/canvas-viewer.jar"/>
+	<classpathentry kind="lib" path="/Users/raphael/.m2/repository/org/apache/kafka/kafka-clients/3.9.1/kafka-clients-3.9.1.jar"/>
+	<classpathentry kind="lib" path="/Users/raphael/.m2/repository/ch/qos/logback/logback-core/1.5.20/logback-core-1.5.20.jar"/>
+	<classpathentry kind="lib" path="/Users/raphael/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
