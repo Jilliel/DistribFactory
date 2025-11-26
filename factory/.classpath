@@ -15,6 +15,6 @@
 	<classpathentry kind="lib" path="/Users/raphael/.m2/repository/org/apache/kafka/kafka-clients/3.9.1/kafka-clients-3.9.1.jar"/>
 	<classpathentry kind="lib" path="/Users/raphael/.m2/repository/ch/qos/logback/logback-core/1.5.20/logback-core-1.5.20.jar"/>
 	<classpathentry kind="lib" path="/Users/raphael/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar"/>
-	<classpathentry kind="lib" path="/Users/raphael/Telecom/2A/UE/SLR/TP/DistribFactory/factory-project/libs/canvas-viewer.jar"/>
+	<classpathentry kind="lib" path="/Users/raphael/Telecom/2A/UE/SLR/TP/DistribFactory/factory/libs/canvas-viewer.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
