@@ -29,7 +29,6 @@ public class FactorySimulationEventConsumer {
 		props.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class);
 		this.consumer = new KafkaConsumer<>(props);
 		final String topicName = SimulationServiceUtils.getTopicName((Factory) controller.getCanvas());
-		System.out.println(topicName);
 		this.consumer.subscribe(Collections.singletonList(topicName));
 	}
 	
@@ -56,7 +55,7 @@ public class FactorySimulationEventConsumer {
 			while (controller.isAnimationRunning()) {
 				final ConsumerRecords<String, String> records = consumer.poll(Duration.ofMillis(100));
 				for (final ConsumerRecord<String, String> record : records) {
-					LOGGER.info("Received JSON Factory text '" + record.value() + "'.");
+					LOGGER.info("Received JSON Factory");
 					controller.setCanvas(record.value());
 				}
 			}

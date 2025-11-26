@@ -133,7 +133,6 @@ public class RemoteSimulatorController extends SimulatorController {
 			module.addDeserializer(BasicVertex.class, new BasicVertexDeserializer());
 			objectMapper.registerModule(module);
 			Factory factory = objectMapper.readValue(response.body(), Factory.class);
-			
 			return factory;
 		} catch (URISyntaxException | IOException | InterruptedException ex) {
 			LOGGER.log(Level.WARNING, "Une erreur est survenue lors de la récupération de la Factory");

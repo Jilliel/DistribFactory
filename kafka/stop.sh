@@ -1,3 +1,3 @@
-bin/kafka-server-stop.sh
-bin/zookeeper-server-stop.sh
-rm logs/*
+kafka/bin/kafka-server-stop.sh
+kafka/bin/zookeeper-server-stop.sh
+rm kafka/logs/*

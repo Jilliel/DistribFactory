@@ -13,7 +13,7 @@ Le test du projet est facilité. Pour éviter des problèmes de librairies et d'
 | `kafka/stop.sh`             | Arrête proprement Zookeeper et le Broker puis efface les logs                               |
 | `scripts/run_persistence.sh`| Lance le serveur de persistence                                                             |
 | `scripts/run_app.sh`        | Lance l'application                                                                         |
-| `scripts/run_service.sh`    | Lance le microservice SpringBoot (actuellement en panne, Eclipse n'a pas envie de compiler une classe pourtant importée dans le microservice) |
+| `scripts/run_service.sh`    | Lance le microservice SpringBoot                                                                                 |
 
 
 ## Problèmes rencontrés

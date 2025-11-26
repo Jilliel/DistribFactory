@@ -19,6 +19,7 @@ public class ServerPersistenceManager implements Runnable{
 
     @Override
     public void run() {
+    	LOGGER.info("Démarrage du serveur de persistence.");
         while (true) {
             try {
                 Socket clientSocket = serverSocket.accept();
