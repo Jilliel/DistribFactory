@@ -2,13 +2,11 @@ package fr.tp.inf112.projects.robotsim.model;
 
 import java.io.Serial;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonGetter;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 import fr.tp.inf112.projects.canvas.model.Style;
 import fr.tp.inf112.projects.canvas.model.impl.RGBColor;
@@ -46,8 +44,6 @@ public class Robot extends Component {
 	
 	private Position memorizedTargetPosition;
 	
-	//Le Path Finder n'est pas pour à l'affichage
-	@JsonIgnore
 	private FactoryPathFinder pathFinder;
 
 	public Robot(final Factory factory,
@@ -88,7 +84,7 @@ public class Robot extends Component {
 		return battery;
 	}
 	
-	@JsonIgnore
+	@JsonGetter("pathFinder")
 	public FactoryPathFinder getPathFinder() {
 		return pathFinder;
 	}
